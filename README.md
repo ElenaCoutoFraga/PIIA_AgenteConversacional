@@ -1,3 +1,6 @@
 # PIIA_AgenteConversacional
-Repositorio para nuestro proyecto de la asignatura Proyecto Integrador de la IA. Consiste el diseño de un agente conversacional por voz a partir de distintos modelos ya existentes.
+El repositorio contiene los archivos necesarios para ejecutar un agente conversacional basado en un pipeline funcional VAD -> ASR -> LLM -> TTS con gestión de los turnos e interrupciones.
 
+Para ejecutar el proyecto basta con hacer un docker compose up desde la carpeta _TresPi_ y despues entrar al localhost:8770 para acceder a la interfaz gráfica 
+
+Es recomendable disponer de una gráfica Nvidia compatible con la versión de CUDA 12.1 para tener un mínimo de fluidez en la conversación, de otra forma la velocidad de procesamiento será muy lenta.
